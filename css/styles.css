@@ -147,3 +147,7 @@ body {
 .link-contacts-header:focus {
   color: var(--branding-color);
 }
+.link-contacts:hover,
+.link-contacts:focus {
+  color: var(--branding-color);
+}
