@@ -1,24 +1,113 @@
-body {
-  font-family: Roboto;
+:root {
+  --branding-color: #2196f3;
+  --main-color: #212121;
+  --secondary-color: #ffffff;
+  --additional-color: #757575;
+  --background-color: #2f303a;
+  --second-background-color: #f5f4fa;
 }
-h1 {
-  font-size: 44px;
 
+body {
+  font-family: "Roboto", "Raleway" sans-serif;
+  color: var(--main-color);
+  letter-spacing: 0.03em;
+}
+.slogan {
+  color: var(--secondary-color);
+  font-size: 44px;
   line-height: 1.36;
+  font-weight: 900;
+  letter-spacing: 0.06em;
+}
+.employees {
+  font-size: 36px;
+  font-weight: bold;
+}
+
+.list-advantage {
+  font-size: 14px;
+  font-weight: bold;
+}
+.name {
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.list {
+  list-style-type: none;
 }
 .logo {
   font-family: Raleway;
   font-size: 26px;
   font-weight: bold;
   text-decoration: none;
-  color: #212121;
+  color: var(--branding-color);
 }
-.logo-color {
-  color: #2196f3;
+.logo-nav {
+  color: var(--main-color);
 }
-a {
+.logo-footer {
+  color: var(--secondary-color);
+}
+
+.active .link:hover,
+.active .link:focus {
+  color: var(--branding-color);
+}
+.link {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
   text-decoration: none;
+  color: var(--main-color);
 }
-li {
-  list-style-type: none;
+
+.main-button {
+  background-color: var(--branding-color);
+  color: var(--secondary-color);
+  border: none;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 3.13;
+  letter-spacing: 0.06em;
+  cursor: pointer;
+}
+.main-button:hover {
+  background-color: #188ce8;
+  cursor: pointer;
+}
+.hero {
+  background-color: var(--background-color);
+  color: var(--secondary-color);
+}
+.advantage {
+  color: var(--additional-color);
+  font-size: 14px;
+  line-height: 1.71;
+}
+.portfolio {
+  background-color: var(--second-background-color);
+  border: none;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.63;
+  cursor: pointer;
+}
+.portfolio:hover {
+  background-color: var(--branding-color);
+  color: var(--secondary-color);
+  cursor: pointer;
+}
+.projects {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.project-name {
+  color: var(--additional-color);
+  font-size: 16px;
+  line-height: 1.88;
+}
+.address {
+  font-style: normal;
 }
