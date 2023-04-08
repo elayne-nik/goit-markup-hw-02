@@ -19,6 +19,7 @@ body {
   line-height: 1.36;
   font-weight: 900;
   letter-spacing: 0.06em;
+  text-transform: uppercase;
 }
 .our-command {
   background-color: #f5f4fa;
@@ -30,6 +31,7 @@ body {
 
 .list-advantage {
   font-weight: bold;
+  text-transform: uppercase;
 }
 .name {
   font-size: 16px;
@@ -71,6 +73,7 @@ body {
   border: none;
   font-size: 16px;
   font-weight: bold;
+  font-family: inherit;
   line-height: 3.13;
   letter-spacing: 0.06em;
   cursor: pointer;
@@ -96,6 +99,7 @@ body {
   border: none;
   font-size: 16px;
   font-weight: 500;
+  font-family: inherit;
   line-height: 1.63;
   cursor: pointer;
 }
@@ -116,5 +120,23 @@ body {
 }
 .address {
   font-style: normal;
-  color: #ffffff;
+}
+.link-contacts {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--secondary-color);
+}
+.link-contacts-header {
+  font-size: 14px;
+  font-weight: 500;
+  letter-spacing: 0.02em;
+  text-decoration: none;
+  color: var(--additional-color);
+}
+.our-ability {
+  font-size: 36px;
+  font-weight: 700;
+  color: var(--main-color);
 }
