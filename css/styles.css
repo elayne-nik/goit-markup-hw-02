@@ -19,6 +19,9 @@ body {
   font-weight: 900;
   letter-spacing: 0.06em;
 }
+.our-command {
+  background-color: #f5f4fa;
+}
 .employees {
   font-size: 36px;
   font-weight: bold;
@@ -85,6 +88,9 @@ body {
   font-size: 14px;
   line-height: 1.71;
 }
+.cards {
+  background-color: #fff;
+}
 .portfolio {
   background-color: var(--second-background-color);
   border: none;
@@ -110,4 +116,5 @@ body {
 }
 .address {
   font-style: normal;
+  color: white;
 }
