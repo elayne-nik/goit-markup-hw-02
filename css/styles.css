@@ -5,6 +5,9 @@
   --additional-color: #757575;
   --background-color: #2f303a;
   --second-background-color: #f5f4fa;
+  --hover-color: #188ce8;
+  --shadow-color: 0px 1px 3px rgba(0, 0, 0, 0.12),
+    0px 1px 1px rgba(0, 0, 0, 0.14), 0px 2px 1px rgba(0, 0, 0, 0.2);
 }
 
 body {
@@ -22,7 +25,7 @@ body {
   text-transform: uppercase;
 }
 .our-command {
-  background-color: #f5f4fa;
+  background-color: var(--second-background-color);
 }
 .employees {
   font-size: 36px;
@@ -80,7 +83,7 @@ body {
 }
 .main-button:hover,
 .main-button:focus {
-  background-color: #188ce8;
+  background-color: var(--hover-color);
   cursor: pointer;
 }
 .hero {
@@ -93,7 +96,7 @@ body {
   line-height: 1.71;
 }
 .cards {
-  background-color: #fff;
+  background-color: var(--secondary-color);
 }
 .portfolio {
   background-color: var(--second-background-color);
@@ -167,4 +170,9 @@ body {
   clip: rect(0 0 0 0);
   clip-path: inset(50%);
   margin: -1px;
+}
+.team-card {
+  background: var(--secondary-color);
+  box-shadow: var(--shadow-color);
+  border-radius: 0px 0px 4px 4px;
 }
