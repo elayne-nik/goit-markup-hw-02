@@ -74,11 +74,12 @@ body {
   font-size: 16px;
   font-weight: bold;
   font-family: inherit;
-  line-height: 3.13;
+  line-height: 1.88;
   letter-spacing: 0.06em;
   cursor: pointer;
 }
-.main-button:hover {
+.main-button:hover,
+.main-button:focus {
   background-color: #188ce8;
   cursor: pointer;
 }
@@ -103,8 +104,10 @@ body {
   line-height: 1.63;
   cursor: pointer;
 }
-.portfolio:hover {
+.portfolio:hover,
+.portfolio:focus {
   background-color: var(--branding-color);
+  border: none;
   color: var(--secondary-color);
   cursor: pointer;
 }
@@ -123,7 +126,6 @@ body {
 }
 .link-contacts {
   font-size: 14px;
-  font-weight: 500;
   letter-spacing: 0.02em;
   text-decoration: none;
   color: var(--secondary-color);
@@ -150,4 +152,7 @@ body {
 .link-contacts:hover,
 .link-contacts:focus {
   color: var(--branding-color);
+}
+.tel-email {
+  opacity: 0.6;
 }
